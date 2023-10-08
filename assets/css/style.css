@@ -83,6 +83,20 @@ main div h1{
   font-size: 1rem;
 }
 
+.especialidad {
+  
+  height: 40vh;
+  width: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.especialidad img{
+  height: 38vh;
+  padding-left: 5vh ;
+}
+
+
 .form {
   width: 100%;
   max-width: 600px;
