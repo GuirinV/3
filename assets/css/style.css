@@ -84,16 +84,30 @@ main div h1{
 }
 
 .especialidad {
-  
   height: 40vh;
-  width: 60vh;
+  width: 100vh;
+  margin: 2vh;
+  border: 1px solid var(--celeste);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.727);
   display: flex;
   align-items: center;
+  position: relative;
+
 }
 
 .especialidad img{
   height: 38vh;
-  padding-left: 5vh ;
+  padding: 0vh 4vh;
+}
+
+.especialidad div{
+  height: 38vh;
+  width: 40vh;
+  text-align: left;
+  padding: 5vh 2vh;
+  display: block;
+  align-items: center;
 }
 
 
