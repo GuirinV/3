@@ -131,6 +131,35 @@ main div h1{
   color: white;
 }
 
+.fondo_ubicacion{
+  height: 10vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255, 0.7)), url(/assets/media/imagenes/fondo_ubicacion.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.fondo_ubicacion a{
+  margin: 3.4vh;
+}
+
+.map {
+  height: 300px;
+  margin: 2vh 0vh 0vh 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/media/imagenes/ubic_celular.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  
+}
+
+.map iframe{
+  width: 500px;
+  height: 250px;
+}
 
 .form {
   width: 100%;
