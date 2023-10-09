@@ -83,31 +83,52 @@ main div h1{
   font-size: 1rem;
 }
 
+.especialidad_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 4vh 0vh;
+}
+
 .especialidad {
   height: 40vh;
   width: 100vh;
   margin: 2vh;
-  border: 1px solid var(--celeste);
+  border: 0.1px solid rgba(191, 191, 189, 0.201);;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.727);
   display: flex;
   align-items: center;
-  position: relative;
-
 }
 
 .especialidad img{
-  height: 38vh;
-  padding: 0vh 4vh;
+  height: auto;
+  width: 50vh;
+  padding: 1vh 3vh;
 }
 
 .especialidad div{
   height: 38vh;
-  width: 40vh;
-  text-align: left;
-  padding: 5vh 2vh;
-  display: block;
-  align-items: center;
+  width: 44vh;
+  text-align:start;
+  padding: 3vh 2vh;
+}
+
+.especialidad div li{
+  list-style: none;
+  padding: 0.8vh 0vh;
+}
+
+.conoce_mas{
+  background-color: var(--celeste);
+  display: inline;
+  padding: 1vh;
+  border-radius: 10px;
+}
+
+.conoce_mas a {
+  text-decoration: none;
+  color: white;
 }
 
 
