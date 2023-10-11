@@ -132,20 +132,21 @@ main div h1{
 }
 
 .fondo_ubicacion{
-  height: 15vh;
   width: 100%;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255, 0.8)), url(/assets/media/imagenes/fondo_ub_verde.jpg);
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255, 0.8)), url(/assets/media/imagenes/fondo_ub_verde.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .fondo_ubicacion a{
-  margin-left: 3vh;
+  background-color: var(--azul-claro);
   font-size: 20px;
-  font-weight: bold;
-  color: var(--azul-oscuro);
+  color: white;
+  padding: 2vh;
+  
 }
 
 .map {
@@ -154,16 +155,15 @@ main div h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/assets/media/imagenes/ubic_celular.png);
-  background-size: 300px;
+  background-image: url(/assets/media/imagenes/fondito_ubi.jpg);
+  background-size: 1600px;
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  background-position: center;
 }
 
-.map iframe{
-  /* width: 500px;
-  height: 300px; */
+.map div{
+  width: 500px;
+  height: 300px;
 }
 
 .form {
