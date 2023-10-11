@@ -166,6 +166,13 @@ main div h1{
   height: 300px;
 }
 
+.map div iframe{
+  border-radius: 15px;
+  padding: 5px;
+  background-color: var(--celeste);
+  box-shadow: 5px 5px 5px var(--gris);
+}
+
 .form {
   width: 100%;
   max-width: 600px;
