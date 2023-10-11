@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Registrarse</h1>
+    </header>
+    <br>
+    <main>
+        <section style="background-image: url(/assets/media/imagenes/FONDO4.jpg);">
+          <form class="form">
+            <input
+              type="text"
+              name="user"
+              id="inputUsuario"
+              placeholder="Escribe tu usuario"
+              required
+            />
+            <br>
+            <input
+              type="email"
+              name="email"
+              id="inputEmail"
+              placeholder="Escribe tu correo"
+              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+              title="Formato de Correo Invalido"
+              required
+            />
+            <br>
+            <input
+              type="password"
+              name="password"
+              id="passwordEmail"
+              placeholder="Ingrese su contraseña"
+              required
+            />
+            <br>
+            <input
+            type="password"
+            name="passwordConfirm"
+            id="passwordConfirm"
+            placeholder="Confirme su contraseña"
+            required
+          />
+          <br>
+            <button id="buttonEnviar" type="submit">Enviar</button>
+          </form>
+        </section>
+        <br />
+        <a href="../pages/pacientes.html">Volver</a>
+      </main>
+    <footer></footer>
+    <script src="/assets/js/registrarse.js"></script>
+</body>
+</html>
