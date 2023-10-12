@@ -47,9 +47,24 @@
       <!-- imagenes para carrusel con animación de CSS -->
       <div class="slider">
         <ul>
-          <li><img src="/assets/media/imagenes/consultas.jpg" alt=""></li>
-          <li> <img src="/assets/media/imagenes/Recurso.jpg" alt=""></li>
-          <li><img src="/assets/media/imagenes/recurso1.jpg" alt=""></li>
+          <li>
+            <picture>
+              <source srcset="/assets/media/imagenes/consultas_movil.jpg" media="(max-width:720px)">
+              <img src="/assets/media/imagenes/consultas.jpg" alt="" width="1600px">
+            </picture>
+          </li>
+          <li> 
+            <picture>
+                <source srcset="/assets/media/imagenes/Recurso_movil.jpg" media="(max-width:720px)">
+                <img src="/assets/media/imagenes/Recurso.jpg" alt="" width="1600px">
+            </picture>
+          </li>
+          <li>
+            <picture>
+            <source srcset="/assets/media/imagenes/Recurso1_movil.jpg" media="(max-width:720px)">
+            <img src="/assets/media/imagenes/recurso1.jpg" alt="" width="1600px">
+            </picture>
+          </li>
         </ul>
       </div>
       <!-- los logos podemos animarlos o hacer algun hover-->
