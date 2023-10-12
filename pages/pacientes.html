@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
 
+    <!-- Iconos de redes -->
+    <script src="https://kit.fontawesome.com/e30e97780d.js" crossorigin="anonymous"></script>
 
     <!-- Formulario --> 
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
@@ -18,53 +20,57 @@
     <script type="text/javascript">
     </script>
 </head>
-<body>
+<body class="pacientes">
     <header>
       <nav>
         <a href="/index.html">Principal</a>
-        <a class="active" href="pacientes.html">Pacientes</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="quienes_somos.html">Quienes Somos</a>
+        <a class="activo" href="/pages/pacientes.html">Pacientes</a>
+        <a href="/pages/contacto.html">Contacto</a>
+        <a href="/pages/quienes_somos.html">Quienes Somos</a>
       </nav>
       <h1></h1>
-     
-    <br>
-    
     </header>
 
+    <main>
     <!-- loguin -->
     <div id="contenedor">
             
       <div id="contenedorcentrado">
           <div id="login">
               <form id="loginform">
-                  <label for="usuario">Usuario</label>
+                  <label for="usuario"></label>
                   <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
                   <br>
-                  <label for="password">Contraseña</label>
+                  <label for="password"></label>
                   <input id="password" type="password" placeholder="Contraseña" name="password" required>
                   <br>
                   <button type="submit" title="Ingresar" name="Ingresar">Login</button>
-              </form>
-              
+              </form> 
           </div>
           <div id="derecho">
               <div class="titulo">
                   Bienvenido
-              </div>
+              </div><br>
               <hr>
               <div class="pie-form">
-                  <a href="/pages/PerdisteContraseña.html">¿Perdiste tu contraseña?</a>
-                  <a href="/pages/Registrarse.html">¿No tienes Cuenta? Registrate</a>
-                  <hr>
+                  <a href="/pages/PerdisteContraseña.html">¿Perdiste tu contraseña?</a><br>
+                  <a href="/pages/Registrarse.html">¿No tienes Cuenta? Registrate</a><br>
+                  <hr><br>
                   <a href="../index.html">Volver</a>
               </div>
           </div>
       </div>
-  </div>
+    </div>
+    </main>
   <!-- loguin -->
-    <main></main>
+    
     <footer>
+        <section class="barra_inferior">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
+          </section>
         <script src="/assets/index.js"></script>
     </footer>
 </body>

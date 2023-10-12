@@ -14,31 +14,35 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/perdistecontr.css" />
     <link rel="stylesheet" href="/assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
+    
+    <!-- Iconos de redes -->
+    <script src="https://kit.fontawesome.com/e30e97780d.js" crossorigin="anonymous"></script>
+    
     <title>El consultorio de Victor | Contacto</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="/index.html">Principal</a>
-        <a href="pacientes.html">Pacientes</a>
-        <a class="active" href="contacto.html">Contacto</a>
-        <a  href="quienes_somos.html">Quienes Somos</a>
+        <a href="/pages/pacientes.html">Pacientes</a>
+        <a class="activo" href="/pages/contacto.html">Contacto</a>
+        <a  href="/pages/quienes_somos.html">Quienes Somos</a>
       </nav>
       <h1><i class="fa fa-user"></i> ¡Bienvenidos!</h1>
+    </header>
+    
+    <main>
       
-      <br>
-      <p style="background-image: url(/assets/media/imagenes/FONDO2.jpg);">
+      <p style="background-image: url(./assets/media/imagenes/FONDO2.jpg);">
         Muchas gracias por visitar nuestro sitio. Te invitamos a completar tus
         datos, colocándonos tu consulta o duda y nos contactaremos a la brevedad
         a fin de brindarte una respuesta.
       </p>
-      <br>
-    </header>
-    <main>
-      <section style="background-image: url(/assets/media/imagenes/FONDO2.jpg);">
+
+      <section>
         <form action="" class="form">
           <input type="text" id="inputNombre" placeholder="NOMBRE Y APELLIDO" />
           <input
@@ -63,9 +67,18 @@
           <button type="submit">Enviar</button>
         </form>
       </section>
+
       <br />
       <a href="../index.html">Volver</a>
+    
     </main>
-    <footer></footer>
+    <footer>
+      <section class="barra_inferior">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
+      </section>
+    </footer>
   </body>
 </html>
