@@ -4,38 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/perdistecontr.css" />
 
-    <title>Pagina para recuperar Contraseña</title>
+    <!-- Iconos de redes -->
+    <script src="https://kit.fontawesome.com/e30e97780d.js" crossorigin="anonymous"></script>
+
+    <title>Recuperar contraseña</title>
     
 </head>
 <body>
     <header>
-        <br>
-        <h1>Pagina para recuperar Contraseña</h1>
-        <br>
-        <p>
-            Ingrese su correo con el que se ha registrado
-        </p>
-        <br>
+      <nav>
+        <a href="/index.html">Principal</a>
+        <a href="/pages/pacientes.html">Pacientes</a>
+        <a href="/pages/contacto.html">Contacto</a>
+        <a href="/pages/quienes_somos.html">Quienes Somos</a>
+      </nav>
+      <h1>Recuperar contraseña</h1>
     </header>
 
     <main>
-        <section style="background-image: url(/assets/media/imagenes/FONDO3.jpg);">
+      <div id="contenedor_contr">
+        <br>
+        <section>
           <form action="" class="form">
+            <p>
+            <b>Ingrese el correo con el que se ha registrado</b>
+            </p>
             <input
               type="email"
               name="inputEmail"
               id="inputEmail"
-              placeholder="EMAIL"
+              placeholder="EMAIL" 
               required
             />
             <button type="submit">Enviar</button>
+          
           </form>
         </section>
-        <br />
-        <a href="../pages/pacientes.html">Volver</a>
-      </main>
+        
+        <br>
+        <br>
+        <a href="../pages/pacientes.html"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i> Volver</a>
+      </div>
+    </main>
 
-    <footer></footer>
+    <footer>
+        <section class="barra_inferior">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
+        </section>
+    </footer>
 </body>
 </html>

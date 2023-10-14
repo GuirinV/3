@@ -5,7 +5,7 @@
 footer section{
     background-image: linear-gradient(to right, var(--azul-oscuro), var(--celeste));
     border: 2px ;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     justify-content:flex-start;
@@ -21,4 +21,12 @@ footer section{
 
 .barra_inferior a:hover{
     transform: scale(130%);
+}
+
+@media screen and (max-width:500px) {
+    .barra_inferior i{
+        font-size: 16px;
+        padding: 1vh;
+        margin-left: 1vh;
+    }
 }
