@@ -19,6 +19,10 @@
 font-size: 16px;
 }
 
+body{
+  background-color: white;
+}
+
 main div h1{
   background-color: var(--blanco);
   height: 10vh;
