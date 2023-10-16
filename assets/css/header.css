@@ -4,7 +4,7 @@ header nav{
     text-align: right;
     /*padding-right:2vh*/
     background-color: white;
-    background-image: url("./assets/media/imagenes/Logo.jpg");
+    background-image: url("/assets/media/imagenes/Logo.jpg");
     background-size: 20vh;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -44,7 +44,7 @@ h1 {
 
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:700px) {
     /*.tablet_animation{
       display: none;
     } */
