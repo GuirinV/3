@@ -71,13 +71,11 @@ main div h1{
     display: none;
   } */
 
-  *{
-    font-size: 10px;
-  }
+  
 }
 
 
-@media screen and (min-width:501px) and (max-width:1000px){
+@media screen and (min-width:701px) and (max-width:1000px){
   /*.slider{
     display: none;
   }
@@ -220,7 +218,7 @@ main div h1{
     position: relative;
     top: 1vh;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
   }
 
@@ -249,34 +247,35 @@ main div h1{
   
   .especialidad div{
     height: 38vh;
-    width: 40vh;
-    text-align: start;
+    width: 80%;
+    text-align: center;
     padding: 3vh 2vh;
+   
   }
   
   .especialidad div h3{
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 2.5vh;
   }
 
   .especialidad div li{
     padding: 0.8vh 0vh;
-    font-size: 14px;
+    font-size: 18px;
   }
   
   .conoce_mas{
     background-color: var(--celeste);
     display: inline;
-    padding: 1vh;
+    padding: 1.4vh;
     border-radius: 10px;
   }
 
   .conoce_mas a{
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .fondo_ubicacion a{
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .map iframe {
