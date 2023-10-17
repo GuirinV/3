@@ -348,7 +348,7 @@ main div h1{
     width: 100%;
     height: 100%;
     
-    background-image: url(/assets/media/imagenes/FONDO_PACIENTES.jpg);
+    background-image: url("../media/imagenes/FONDO_PACIENTES.jpg");
     background-position: center;
     background-size: cover;
   }
