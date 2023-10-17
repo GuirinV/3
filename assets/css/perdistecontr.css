@@ -20,9 +20,11 @@ main{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url(../media/imagenes/FONDO_PACIENTES.jpg);
+    background-image: url("../media/imagenes/FONDO_PACIENTES.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  
+     
 }
 
 #contenedor_contr h2{
