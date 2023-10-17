@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/registrarse.css" />
+
+    <!-- Iconos de redes -->
+    <script src="https://kit.fontawesome.com/e30e97780d.js" crossorigin="anonymous"></script>
+    
+    <title>Registrarse</title>
 </head>
 <body>
     <header>
+      <nav>
+        <a href="../index.html">Principal</a>
+        <a href="./pacientes.html">Pacientes</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="./quienes_somos.html">Quienes Somos</a>
+      </nav>
         <h1>Registrarse</h1>
     </header>
-    <br>
     <main>
-        <section style="background-image: url(/assets/media/imagenes/FONDO4.jpg);">
+        <div id="contenedor_registro">
+        <section>
           <form class="form">
             <input
               type="text"
               name="user"
               id="inputUsuario"
-              placeholder="Escribe tu usuario"
+              placeholder="Nombre de usuario"
               required
             />
             <br>
@@ -25,7 +40,7 @@
               type="email"
               name="email"
               id="inputEmail"
-              placeholder="Escribe tu correo"
+              placeholder="Correo electrónico"
               pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
               title="Formato de Correo Invalido"
               required
@@ -51,9 +66,17 @@
           </form>
         </section>
         <br />
-        <a href="../pages/pacientes.html">Volver</a>
+        <a href="../pages/pacientes.html"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i> Volver</a>
+      </div>
       </main>
-    <footer></footer>
+    <footer>
+      <section class="barra_inferior">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="mailto:example@mail.com"><i class="fa-regular fa-envelope"></i></a>
+      </section>
+    </footer>
     <script src="/assets/js/registrarse.js"></script>
 </body>
 </html>
