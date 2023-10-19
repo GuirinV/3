@@ -86,7 +86,7 @@ h1 {
   }
 
   /*Media query tablet*/
-  @media screen and (min-width:700px) and (max-width:1100px){
+  @media screen and (min-width:700px) and (max-width:1000px){
     header nav a{
       font-size: 18px;
       display: inline-block;
