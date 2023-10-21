@@ -38,22 +38,25 @@ header nav a:hover{
 header nav a.activo{
 background-color: var(--celeste);
 }
+
 h1 {
+width: 100%;
 background-color: var(--azul-oscuro);
-height: 5vh;
+height: fit-content;
 font-weight: bold;
 color: white;
-font-size: 20px;
-padding: 6px;
+font-size: 18px;
+padding: 8px;
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
 
 }
 
 /*Media query móvil*/
 @media screen and (max-width:700px) {
-  /*.tablet_animation{
-    display: none;
-  } */
-
   *{
     font-size: 10px;
   }
@@ -86,20 +89,15 @@ padding: 6px;
   }
 
   header h1{
-    font-size: 16px;
+    font-size: 14px;
     padding: 8px;
   }
 }
 
 /*Media query tablet*/
 @media screen and (min-width:700px) and (max-width:1000px){
-  header nav a{
-    font-size: 16px;
-  }
-  
   header h1{
-    font-size: 22px;
-    padding: 13px;
+    font-size: 20px;
   }
 }
 
