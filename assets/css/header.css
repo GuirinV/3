@@ -43,6 +43,7 @@ h1 {
 width: 100%;
 background-color: var(--azul-oscuro);
 height: fit-content;
+min-height: 5vh;
 font-weight: bold;
 color: white;
 font-size: 18px;
