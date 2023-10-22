@@ -10,8 +10,8 @@ function cargarPacientes(){
 
 function cargar(datos){
     datos.forEach(element => {
-        const {id,name,username,email}=element
-        console.log(name)
+        const {id,name,username,email, address: {street, suite, city}}=element
+        //console.log(street)
     });
 
 }
