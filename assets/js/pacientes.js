@@ -33,4 +33,5 @@ document.addEventListener('submit',(event)=>{ /* "escuchamos el evento submit"*/
         return;
     }
     alert ('Bienvenido ' + usuario)
+    location.href='./dashboard.html'
 }) 
