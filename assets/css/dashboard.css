@@ -35,5 +35,25 @@ footer{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 30px;
+    top: 25px;
+}
+
+#datos table{
+    width: 80svw;
+    background-color: #E0E0E0;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 6px 10px;
+    border-bottom: solid 1px black;
+}
+
+tr{
+    border: solid 1px black;
+}
+
+thead{
+    background-color: var(--celeste);
 }
