@@ -40,7 +40,7 @@ footer{
 
 #datos table{
     width: 80svw;
-    background-color: #E0E0E0;
+    background-color: #ebebeb;
     text-align: center;
     border-collapse: collapse;
 }
@@ -52,6 +52,10 @@ th, td{
 
 tr{
     border: solid 1px black;
+}
+
+tr:nth-child(even){
+    background-color: #FAFAFA;
 }
 
 thead{
