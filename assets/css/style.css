@@ -113,6 +113,7 @@ main div h1{
 }
 
 .especialidad div{
+  height: fit-content;
   width: fit-content;
   text-align:start;
   padding: 3vh 2vw;
@@ -146,6 +147,7 @@ main div h1{
 .fondo_ubicacion a{
   background-color: var(--azul-claro);
   font-size: 20px;
+  font-weight: bold;
   color: white;
   padding: 2vh;
 }
