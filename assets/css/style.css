@@ -93,13 +93,12 @@ main div h1{
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 4vh 0vh;
+  margin: 4vh 0vw;
 }
 
 .especialidad {
-  height: 40vh;
-  width: 100vh;
-  margin: 2vh;
+  height: 90%;
+  width: 60%;
   border: 0.1px solid rgba(191, 191, 189, 0.201);;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.727);
@@ -109,26 +108,26 @@ main div h1{
 
 .especialidad img{
   height: auto;
-  width: 50vh;
+  width: 35vw;
   padding: 1vh 3vh;
 }
 
 .especialidad div{
-  height: 38vh;
-  width: 44vh;
+  height: fit-content;
+  width: fit-content;
   text-align:start;
-  padding: 3vh 2vh;
+  padding: 3vh 2vw;
 }
 
 .especialidad div li{
   list-style: none;
-  padding: 0.8vh 0vh;
+  padding: 0.8vh 0vw;
 }
 
 .conoce_mas{
   background-color: var(--celeste);
   display: inline;
-  padding: 1vh;
+  padding: 1vh 1vw;
   border-radius: 10px;
 }
 
@@ -148,6 +147,7 @@ main div h1{
 .fondo_ubicacion a{
   background-color: var(--azul-claro);
   font-size: 20px;
+  font-weight: bold;
   color: white;
   padding: 2vh;
 }
@@ -201,13 +201,13 @@ main div h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 4vh 0vh;
+    margin: 4vh 0vw;
   }
   
   .especialidad {
-    height: 35vh;
-    width: 40vh;
-    margin: 2vh;
+    height: max-content;
+    width: 80%;
+    margin: 4px;
     border: 0.1px solid rgba(191, 191, 189, 0.201);;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.727);
@@ -221,27 +221,22 @@ main div h1{
   }
   
   .especialidad div{
-    height: 38vh;
+    height: 80%;
     width: 80%;
-    text-align: center;
-    padding: 3vh 2vh;
-   
+    text-align: center; 
   }
   
   .especialidad div h3{
-    font-size: 16px;
-    margin-top: 2.5vh;
+    font-size: 14px;
   }
 
   .especialidad div li{
-    padding: 0.8vh 0vh;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .conoce_mas{
     background-color: var(--celeste);
     display: inline;
-    padding: 1.4vh;
     border-radius: 10px;
   }
 
@@ -250,7 +245,7 @@ main div h1{
   }
 
   .fondo_ubicacion a{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
   }
 
@@ -271,7 +266,7 @@ main div h1{
   
   .botones span img{
     height: 8vh;
-    padding: 0vh 4vh;
+    padding: 0vh 4vw;
   }
   
   .botones_texto
@@ -304,20 +299,20 @@ main div h1{
   .especialidad img{
     height: auto;
     width: 400px;
-    padding: 1vh 2vh;
+    padding: 1vh 2vw;
   }
 
   .especialidad div{
-    height: 38vh;
+    height: 28vh;
     width: 300px;
     text-align:start;
-    padding: 3vh 2vh;
-    margin-top: 15%;
+    padding: 3vh 2vw;
+    margin: 3px 0px;
   }
 
   .especialidad div li{
     list-style: none;
-    padding: 0.8vh 0vh;
+    padding: 0.8vh 0vw;
     font-size: 18px;
   }
 
@@ -329,7 +324,7 @@ main div h1{
   }
   
   .fondo_ubicacion a{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
   }
 }   /*Termina media query tablet*/
