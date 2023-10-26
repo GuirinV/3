@@ -6,8 +6,8 @@
 Desarrollo de un sitio web para el Dr. Víctor Cortéz Pérez
 </p>
 
-###HTML
-El presente proyecto cuenta con 7 páginas html:
+### HTML
+<p>El presente proyecto cuenta con 7 páginas html:</p>
 - index es la página principal o landing page, contiene un navegador en la parte superior derecha del header que nos permite acceder a:
 	- pacientes.html (autogestión)
 	- contacto.html
@@ -19,4 +19,4 @@ El presente proyecto cuenta con 7 páginas html:
 - En contacto.html encontramos un formulario de contacto.
 - En quienes_somos.html podemos encontrar una breve presentación del profesional a quien va dirigido el sitio web.
 
-###CSS
+### CSS
