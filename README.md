@@ -42,7 +42,7 @@ Desarrollo de un sitio web para el Dr. Víctor Cortéz Pérez
 	<li>HTML</li>
 	<li>CSS</li>
 	<li>JavaScript</li>
-	<li>&nbsp;</li>
+	<li>El consumo de API se hizo desde:&nbsp;<a href="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</a></li>
 </ul>
 
 <p><u>Personas Contribuyentes</u>:</p>
