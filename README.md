@@ -16,12 +16,6 @@ Desarrollo de un sitio web para el Dr. Víctor Cortéz Pérez
 
 <p>Tambien en cuanto a la visualizacion de la pagina, nos aferramos a que tenga relacion con la tematica del sitio y que la misma sea agradable.</p>
 
-<p>&nbsp;</p>
-
-<p><u>Estado del proyecto</u>: En Progreso</p>
-
-<p>&nbsp;</p>
-
 <p><u>Tecnolog&iacute;as utilizadas</u>:</p>
 
 <ul>
